@@ -8,5 +8,5 @@ export const fetchHomeData = () => ({
 
 export const saveHomeData = (data) => ({
     type: SAVE_HOME_DATA,
-    homeData: data
+    data
 })

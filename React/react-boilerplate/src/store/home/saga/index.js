@@ -5,8 +5,9 @@ import * as Actions from '../actions/actionTypes';
 
 function* fetchHome() {
     try {
-        const homeData = yield call(Api.fetchHomeData());
-        yield put(Actions.SAVE_HOME_DATA, homeData);
+        const homeData = yield call(Api.fetchHomeData);
+        console.log('homeData', homeData);
+        yield put({type: Actions.SAVE_HOME_DATA, data: homeData});
     } catch (e) {
 
     }

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/amanpreet-github/JavascriptPlayground/issues"
   },
-  "homepage": "https://github.com/amanpreet-github/JavascriptPlayground#readme"
+  "homepage": "https://github.com/amanpreet-github/JavascriptPlayground#readme",
+  "dependencies": {
+    "prop-types": "^15.6.2"
+  }
 }

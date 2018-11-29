@@ -16,9 +16,10 @@ const homeReducer = (state = initialState, action) => {
         }
 
         case SAVE_HOME_DATA: {
+            console.log(action.data);
             return {
                 ...state,
-                ...action.homeData
+                ...action.data
             };
         }
         default : {

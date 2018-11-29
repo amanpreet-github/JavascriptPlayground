@@ -2,6 +2,8 @@ import React from "react";
 
 import {BrowserRouter as Router, Route, Link} from "react-router-dom";
 
+import HomeContainer from '../containers/Home/home';
+
 const Index = () => <h1> Home </h1>;
 const About = () => <h1> About</h1>;
 const User = () => <h1> User</h1>;
@@ -22,7 +24,7 @@ const AppRouter = () => (
                     </li>
                 </ul>
             </nav>
-            <Route path="/" exact component={Index}/>
+            <Route path="/" exact component={HomeContainer}/>
             <Route path="/about" component={About}/>
             <Route path="/users" component={User}/>
         </div>

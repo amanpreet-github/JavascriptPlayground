@@ -9,7 +9,6 @@ import * as serviceWorker from './serviceWorker';
 
 const rootElement = document.getElementById('root');
 
-
 ReactDOM.render(
     <Provider store={store}>
         <App store={store}/>
