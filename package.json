@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/amanpreet-github/JavascriptPlayground#readme",
   "dependencies": {
-    "prop-types": "^15.6.2"
+    "prop-types": "^15.6.2",
+    "uuid": "^3.3.2"
   }
 }

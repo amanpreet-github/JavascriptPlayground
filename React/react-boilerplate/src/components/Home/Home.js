@@ -15,12 +15,10 @@ class Home extends React.Component {
     render() {
         return (
             <div>
-                <h1>
-                    {`Hello. You are from ${this.props.pinCode}`}
-                </h1>
-                <button onClick={this.handleButtonClick}>
-                    Click Me
-                </button>
+            React.createElement(‘ul’, { className : ‘list’ },
+  React.createElement(‘li’, {}, ‘item 1’),
+  React.createElement(‘li’, {}, ‘item 2’),
+);
             </div>
         );
     }

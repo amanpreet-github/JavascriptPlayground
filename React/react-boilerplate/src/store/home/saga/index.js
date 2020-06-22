@@ -9,7 +9,6 @@ function* fetchHome() {
         console.log('homeData', homeData);
         yield put({type: Actions.SAVE_HOME_DATA, data: homeData});
     } catch (e) {
-
     }
 }
 

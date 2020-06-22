@@ -7,6 +7,7 @@ import reducer from './allReducers'
 import rootSaga from './sagas'
 
 
+
 const sagaMiddleware = createSagaMiddleware();
 
 const store = createStore(
@@ -14,6 +15,7 @@ const store = createStore(
     +window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),
     applyMiddleware(sagaMiddleware)
 );
+
 
 sagaMiddleware.run(rootSaga);
 
